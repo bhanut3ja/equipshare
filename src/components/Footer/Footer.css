@@ -1,0 +1,22 @@
+.footer {
+    padding: 8px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.555);
+    background-color: white;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  z-index: -1;
+}
+.footer-bottom {   
+    z-index: 1030;
+}
+
+@media only screen and (max-width: 650px) {
+    .footer {
+        font-size: 10px;
+    }
+}

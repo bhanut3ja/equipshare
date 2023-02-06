@@ -1,0 +1,88 @@
+.notification-container {
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+.UserTable {
+    padding: 20px;
+}
+
+.UserNameTable {
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 20px;
+    border-radius: 8px;
+
+    margin: auto;
+}
+
+.th {
+    border-left: 1px solid rgba(82, 78, 78, 0.268);
+}
+
+
+.number {
+    width: 80px;
+}
+
+.button-check {
+    background: gray;
+    padding: .1rem .8rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.button-check:hover {
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.DateContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: .8rem;
+}
+
+.DateContainer select {
+    border: 0.1px solid rgba(82, 78, 78, 0.268);
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: .7rem;
+}
+
+.input-dispatch{
+    font-size: .9rem;
+}
+
+.input-dispatch input{
+    margin-left: 1rem;
+    font-size: .8rem;
+}
+
+.select-dispatch{
+    padding: .5rem 5rem .5rem .3rem ;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.text-arrange{
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width:872px) {
+    .UserTable {
+        padding: 10px;
+        width: 600px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:799px) {
+    .UserTable {
+        padding: 10px;
+        width: 500px;
+        margin: auto;
+    }
+}

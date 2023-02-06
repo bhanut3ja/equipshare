@@ -1,0 +1,111 @@
+.Login-Component{
+    display: flex;
+    justify-content: space-between;
+}
+.Logo-Component{
+    padding-left: 22rem;
+}
+.Logo{
+    background: #adadad;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    border-radius: 1rem;
+    color: #555555;
+    margin-top: 17rem;
+}
+.Form-Component{
+    padding-top: 12em;
+    padding-right: 16rem;
+}
+.Heading{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.Form-Component .InputFields{
+    width: 18rem;
+    padding: 0.7rem;
+    background: inherit;
+    border: 0.1rem solid grey;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    outline: #adadad;
+}
+.Captcha{
+    display: flex;
+    justify-content: space-between;
+}
+.CaptchaComponent{
+    margin-top: 1rem;
+    background: white;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 10px;
+    width: 134px;
+    color: rgb(71, 71, 71);
+    border-radius: 10px;
+    border: 1px solid rgb(155, 154, 154);
+}
+.CaptchaInput{
+    width: 134px;
+    outline: #adadad;
+    padding: 0.7rem;
+    background: inherit;
+    border: 0.1rem solid grey;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.LoginButton{
+    border: none;
+    background: #918e8e;
+    padding: 10px;
+    width: 18rem;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.LoginButton:hover{
+    background: #adadad;
+}
+.RememberFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.ForgotPass{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    text-align: end;
+}
+
+.validation-text{
+    color: red;
+    font-size: .8rem;
+}
+/* Media Queries */
+@media screen and (max-width: 900px){
+    .Logo-Component{
+        padding-right: 100px;
+        padding-left: 13rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .Logo-Component{
+        display: none;
+    }
+    .Form-Component{
+        padding-right: 0;
+        padding-left: 35px;
+    }
+}

@@ -1,0 +1,61 @@
+.notification-container {
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+.UserTable {
+    padding: 20px;
+}
+
+.UserNameTable {
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.th {
+    border-left: 1px solid rgba(82, 78, 78, 0.268);
+}
+
+
+.number {
+    width: 80px;
+}
+
+.button-check {
+    background: gray;
+    padding: .1rem .8rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.button-check:hover {
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.reject-container{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+
+@media screen and (max-width:872px) {
+    .UserTable {
+        padding: 10px;
+        width: 600px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:799px) {
+    .UserTable {
+        padding: 10px;
+        width: 500px;
+        margin: auto;
+    }
+}

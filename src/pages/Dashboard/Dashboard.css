@@ -1,0 +1,308 @@
+.main-dashboard{
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #878686;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dashboard-heading{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.routing-content{
+    color: #464545;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+}
+.count-2, .count-1, .count-3{
+    display: flex;
+    justify-content: space-between;
+    background: #a6a6a6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 14px;
+    margin-top: 15px;
+    padding-right: 14px;
+    border-radius: 10px;
+}
+.total-number{
+    padding-right: 106px;
+}
+.equipments-graphs{
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+}
+.equipments-category{
+    width: 420px;
+}
+.equipment-category-header, .equipment-utilization-header{
+    display: flex;
+    justify-content: space-between;
+    background: #a6a6a6;
+    border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 10px;
+}
+.equipment-utilization-header{
+    display: flex;
+    justify-content: space-between;
+    width: 683px;
+    font-size: 13px;
+    padding: 10px;
+}
+.header-name{
+    padding: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.header-dropdown{
+    padding: 3px;
+    font-size: 13px;
+    width: 186px;
+    outline: none;
+}
+.header-radios{
+    font-size: .7rem;
+    padding: 5px ;
+}
+
+.equipment-category-graph, .equipment-utilization-graph{
+    background: white;
+    border: 0.5px solid rgb(206, 206, 206);
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.date-heading{
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 60px;
+}
+.date-heading input[type='date']{
+    margin-left: 10px;
+    padding: 6px;
+    width: 150px;
+}
+.get-details{
+    background: #6a6a6a;
+    border: none;
+    padding: .5rem .5rem;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 1s;
+    cursor: pointer;
+}
+.get-details:hover{
+    background: #a6a6a6;
+    color: black;
+}
+.chart-1, .chart-2{
+    display: flex;
+    column-gap: 2rem;
+}
+.bar-and-line, .bar, .sample-bar, .sample-bar2{
+    border: 0.5px solid rgb(206, 206, 206);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 550px;
+    margin-bottom: 20px;
+}
+.bar-heading{
+    background: #a6a6a6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.dropdown-map{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.section-3, .section-4, .section-5, .section-6, .section-7{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #a09d9d;
+    padding: 10px;
+    border-left: 0.5px solid #a09d9d;
+    border-right: 0.5px solid #a09d9d;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section-3:hover, .section-4:hover, .section-5:hover, .section-6:hover, .section-7:hover{
+    background: rgb(215, 215, 215);
+    border-left:none;
+    border-right: none;
+}
+.dropdown-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 241px;
+    padding-left: 7px;
+    background: #d8d8d8;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    font-style: italic;
+}
+.dropdown-2{
+    padding-top: 10px;
+    font-style: italic;
+    padding-bottom: 10px;
+    padding-right: 226px;
+    padding-left: 7px;
+    border: none;
+    background: #d8d8d8;
+    border-top: 0.5px solid white;
+    font-size: 14px;
+    outline: none;
+}
+.site{
+    font-size: 15px;
+    font-weight: bold;
+}
+.site span{
+    padding-left: 6px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.map img{
+    width: 761px; 
+    height: 376px;
+}
+
+@media screen and (max-width: 900px) {
+    .count{
+        display: block;
+    }
+    .total-number{
+        padding-right: 21px;
+    }
+    .count-2, .count-1, .count-3{
+        font-size: 12px;
+        width: 540px;
+    }
+    .date{
+        display: block;
+    }
+    .get-details{
+        padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    }
+    .equipments-graphs{
+        display: block;
+    }
+    .equipment-utilization-header{
+        width: 537px;
+    }
+    .equipments-category{
+        width: 537px;
+        margin-bottom: 20px;
+    }
+    .equipment-utilization-graph{
+        width: 537px;
+    }
+    .chart-1, .chart-2{
+        display: block;
+    }
+    .dropdown-map{
+        display: block;
+    }
+    .map img{
+        width: 549px;
+        height: 272px;
+        margin-top: 20px;
+    }
+    .dropdown-1{
+        padding-right: 433px;
+    }
+    .dropdown-2{
+        padding-right: 418px;
+    }
+    .section-3, .section-4, .section-5, .section-6, .section-7{
+        width: 549px;
+    }
+}
+@media screen and (max-width: 500px){
+    .equipment-utilization-header{
+        width: 255px;
+    }
+    .equipments-category{
+        width: 255px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .equipments-utilization{
+        width: 300px;
+    }
+    .equipment-category-header, .equipment-utilization-header{
+        display: block;
+        text-align: center;
+        width: 300px;
+    }
+    .header-name{
+        margin-top: 10px;
+    }
+    .header-dropdown{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .header-radios{
+        margin-top: 10px; 
+    }
+    .date{
+        display: block;
+    }
+    .date-heading input[type='date']{
+        margin-left: 0px;
+        padding: 6px;
+        width: 130px;
+        margin-bottom: 15px;
+    }
+    .chart-1, .chart-2{
+        display: block;
+    }
+    .equipment-utilization-graph{
+        width: 300px;
+    }
+    .equipment-category-graph{
+        width: 300px;
+    }
+    .bar-and-line, .bar, .sample-bar, .sample-bar2{
+        width: 300px;
+    }
+    .count-2, .count-1, .count-3{
+        font-size: 12px;
+        width: 302px;
+    }
+    .map img{
+        width: 302px;
+        height: 272px;
+        margin-top: 20px;
+    }
+    .dropdown-1{
+        padding-right: 185px;
+    }
+    .dropdown-2{
+        padding-right: 170px;
+    }
+    .section-3, .section-4, .section-5, .section-6, .section-7{
+        width: 302px;
+    }
+}

@@ -1,0 +1,201 @@
+.add-equipment{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.add-equipment-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #a6a4a4;
+    margin-top: 11px;
+}
+.add-header{
+    font-size: 23px;
+}
+.add-equip-routing{
+    color: darkgrey;
+}
+.equip-dropdown-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.drop-label{
+    font-weight: bold;
+}
+.drop-sec{
+    width: 180px;
+    margin-left: 5px;
+    padding: 6px;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: rgb(0 0 0 / 16%);
+    background: rgb(248, 248, 248);
+}
+.equipment-basic-info{
+    margin-top: 20px;
+    padding: 10px;
+    border: 0.5px solid #d5cece;
+    border-radius: 5px;
+    background: #f6f3f3;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.info-heading{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #b5b5b5;
+}
+.basic-info-content{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.basic-labels{
+    text-align: right;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.basic-field, .basic-label{
+    margin-top: 15px;
+}
+.basic-fields{
+    text-align: left;
+}
+.basic-content-1, .basic-content-2{
+    display: flex;
+    justify-content: space-between;
+}
+.location-section{
+    display: flex;
+    flex-direction: row;
+}
+.equipment-location-images{
+    margin-top: 20px;
+    padding: 10px;
+    border: 0.5px solid #d5cece;
+    border-radius: 5px;
+    background: #f6f3f3;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.location-section{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.location-images-heading{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #b5b5b5;
+}
+.dues-checks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dues-docs-header{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #b5b5b5;
+}
+.equipment-dues-docs{
+    margin-top: 20px;
+    padding: 10px;
+    border: 0.5px solid #d5cece;
+    border-radius: 5px;
+    background: #f6f3f3;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.upload-docs{
+    padding-left: 150px;
+}
+.upload-label{
+    font-weight: bold;
+    padding-top: 54px;
+}
+.upload-icon{
+    margin-left: 50px;
+    border: 0.5px solid #adadad;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    cursor: pointer;
+    padding-right: 25px;
+}
+.upload-all-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 434px;
+    padding-right: 434px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.back-btn, .sub-btn{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background: grey;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.back-btn:hover, .sub-btn:hover{
+    background-color: rgb(223, 222, 222);
+}
+.equipment-asset{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 0.5px solid #d5cece;
+    border-radius: 5px;
+    background: #f6f3f3;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.equipment-asset-heading{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #b5b5b5;
+}
+.asset-icon{
+    border: 0.5px solid #d5cece;
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.asset-btn{
+    text-align: center;
+}
+.asset-button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    background: grey;
+    margin-bottom: 20px;
+}
+.asset-button:hover{
+    background: rgb(215, 215, 215);
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .equip-dropdown-container{
+        display: block;
+    }
+    .drop-sec{
+        width: 100%;
+        margin-left:0;
+    }
+    .basic-info-content{
+        display: block;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

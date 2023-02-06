@@ -1,0 +1,15 @@
+.Rental-brand{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+}
+.Rental-brand:hover{
+    color: rgb(97, 97, 97);
+}
+
+.Rental-links{
+    font-size: .8rem;
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+}

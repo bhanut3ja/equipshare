@@ -1,0 +1,18 @@
+.EquipmentTable{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 20px;
+    border-radius: 8px;
+    overflow:auto;
+  display: block;
+    margin:auto;
+}
+ 
+.th{
+    border-left: 1px solid rgba(82, 78, 78, 0.268);
+}
+.number{
+  width: 80px;
+}
+ 
+ 
+ 

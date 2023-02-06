@@ -1,0 +1,106 @@
+.UserTables{
+ padding: 20px;
+}
+.UserSelects{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+  
+}
+.UserSelect{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+.UserSelect .Title{
+    cursor: pointer;
+}
+.UserSelect .SitePresenter button{
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
+    background:rgba(0, 0, 0, 0.555);
+    color: white;
+    cursor: pointer;
+}
+.UserSelect .SitePresenter button:hover{
+    background-color:rgba(82, 78, 78, 0.436) ;
+    
+}
+/* @media screen and (max-width:838px){
+    .UserSelect{
+    width:480px;
+    }
+} */
+
+/* Table CSS */
+.UserNameTable{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 20px;
+    border-radius: 8px;
+    overflow:auto;
+    display: block;
+    margin:auto;
+}
+ 
+.th{
+    border-left: 1px solid rgba(82, 78, 78, 0.268);
+}
+.Link{
+    text-decoration: none;
+}
+.number{
+  width: 80px;
+}
+.users .Action{
+    display: flex;
+    gap: 10px;
+    color: black;
+}
+.users .Action p{
+    border-bottom: 0.5px solid rgba(82, 78, 78, 0.268);
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width:997px) {
+    .UserTables{
+    padding: 10px;
+    width: 700px;
+    margin: auto;
+}
+}
+@media screen and (max-width:872px) {
+    .UserTables{
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+}
+}
+@media screen and (max-width:799px) {
+    .UserTables{
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}
+}
+@media screen and (max-width:503px) {
+    .UserTables{
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+}
+}
+@media screen and (max-width:403px) {
+    .UserTables{
+    padding: 10px;
+    width: 350px;
+    margin: auto;
+}
+}
+ 
+ 
+
+   

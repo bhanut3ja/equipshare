@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .RentCategories{
+    margin-top: 60px;
+    padding: 20px;
+  }
+/* RentCategories -Navbar -CSS */
+.RentCategoriesNav{
+    border-bottom: 1px solid rgba(82, 78, 78, 0.268);
+    margin: auto;
+     
+    
+}
+p{
+    margin-bottom: 0;
+}
+.RentCategoriesNavbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+ 
+.RentCategoriesNavbar .RentCategoriesPresenter p{
+  margin-bottom: 0;
+}
+.RentCategoriesNavbar .RentCategoriesPresenter{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+/* @media screen and (max-width:838px){
+    .SiteNavbar{
+    width:480px;
+    }
+} */
+
+/* Second Components */
+.SelectRentCategories{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+}
+.SelectRentCategorie .Title{
+    display: flex;
+    align-items: center;
+     gap: 10px;
+     flex-wrap: wrap;
+}
+ 
+.SelectRentCategorie  #combo-box-demo{
+    width: 200px;
+}
+ .SelectRentCategorie .Title .Dropdown{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+ 
+   /* Image Container CSS */
+   .Contain{
+     margin-top: 15px;
+   }
+   .Contain .topheader{
+     margin-bottom: 15px;
+   }
+  .Contain .First-Div{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+  .Contain .Div1{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(82, 78, 78, 0.268);
+    border-radius: 12px;
+     overflow: hidden;
+}
+  .Contain .Div1:hover{
+  border-color: rgb(63 60 60 / 43%);
+}
+ 
+  .Contain .Div1 .tag{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 30px 20px;
+    gap: 10px;
+    background-color: #75757548;
+    background-size: cover;
+    /* background: #f3f8ff; */
+}
+   
+  .Contain .Div1  .paragraph p{
+    padding: 20px 20px;
+     text-align: center;
+    color: #757575 !important;
+    background-color: white;
+    margin-bottom: 0;
+    }

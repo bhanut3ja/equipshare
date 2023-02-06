@@ -1,0 +1,551 @@
+.equipment-component {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.equipment-charts{
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.equip-Pie{
+    width: 274px;
+    height: 254px; 
+}
+.equi-Line{
+    width: 400px;
+}
+.equipment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    border-bottom: 0.5px solid #878686;
+}
+
+.equipment-routing {
+    margin-top: 5px;
+    color: #919191;
+}
+
+.fa-search {
+    position: absolute;
+    padding-top: 14px;
+    padding-left: 6px;
+    color: #a49f9f;
+}
+
+.input-field {
+    padding: 9px;
+    width: 389px;
+    padding-left: 27px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid #919191;
+}
+
+.six-cards-component {
+    border: 0.5px solid #919191;
+}
+
+.equipment-center-component {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-no {
+    font-weight: bold;
+}
+
+.e-card {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #919191;
+}
+
+.card-image {
+    width: fit-content;
+    height: fit-content;
+    padding: 42px;
+    background: gainsboro;
+    color: #ababab;
+    font-size: 16px;
+}
+
+.ecard-name {
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.ecard-content {
+    margin-left: 15px;
+}
+
+.ecard-model {
+    font-size: 15px;
+}
+
+.manu-name,
+.cont1 {
+    margin-bottom: 0;
+    color: #a8a7a7;
+}
+
+.equipment-tab-routing {
+    background: rgb(243, 243, 243);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+
+.equipment-links {
+    color: black;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.equipment-side-content {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.equipment-links:hover {
+    background: grey;
+    color: white;
+}
+
+.equipment-table{
+    padding: 20px;
+    border: 0.5px solid #a8a7a7;
+    margin-top: 10px
+}
+
+/* Trip Tab styling */
+.trip-table {
+    padding: 10px;
+    border: 0.5px solid #a8a7a7;
+    margin-top: 10px
+}
+
+/* Fuel Tab styling */
+.inputs-component {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-dropdown {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-dropdown select {
+    margin-top: .3rem;
+    font-size: .7rem;
+}
+
+.input-date input {
+    font-size: .7rem;
+}
+
+.dlabel {
+    margin-right: 9px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+
+.fuel-dropdown {
+    height: fit-content;
+    padding: 3px;
+    width: 124px;
+    margin-right: 10px;
+}
+
+.fuel-button {
+    background: gray;
+    padding: .1rem .5rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: .7rem;
+    margin-left: 1rem;
+}
+
+.fuel-table {
+    padding: 10px;
+    border: 0.5px solid #a8a7a7;
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.bottom-component {
+    border: 0.5px solid #a8a7a7;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: col;
+    text-align: right;
+}
+
+.field-type,
+.field-date,
+.field-rate,
+.field-level,
+.field-issue,
+.field-invoice {
+    padding: 5px;
+    margin-top: 30px;
+    width: 200px;
+    margin-right: 18px;
+    margin-left: 12px;
+}
+
+.type-date-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.level-issue-invoice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-submit {
+    margin-top: 31px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: grey;
+}
+
+/* Service Component Styling */
+.service-component {
+    margin-top: 20px;
+}
+
+.service-tabs {
+    background: #d2d2d2;
+    width: fit-content;
+}
+
+.service-links {
+    padding-right: 45px;
+    padding-left: 45px;
+    color: black;
+    text-decoration: none;
+    padding-top: 8px;
+    transition: 0.5s;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.service-links:hover {
+    color: white;
+    background-color: gray;
+}
+
+.service-request-section {
+    border: 0.5px solid #a8a7a7;
+    padding: 20px;
+}
+
+.request-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.mechanic-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.request {
+    margin-left: 45px;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 0.5px solid #a8a7a7;
+}
+
+.req-name,
+.mech-name,
+.mech-no {
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 0.5px solid #a8a7a7;
+}
+
+.serv-desc {
+    padding: 5px;
+    padding-left: 15px;
+    width: 100%;
+    border: 0.5px solid #a8a7a7;
+    border-radius: 10px;
+}
+
+.serv-radios {
+    margin-top: 20px;
+}
+
+.Yes {
+    margin-left: 21px;
+}
+
+.No {
+    margin-left: 120px;
+}
+
+.spare-detail {
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 7px;
+    border: 0.5px solid #a8a7a7;
+    margin-top: 20px;
+    margin-left: 131px;
+}
+
+.serv-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.serv-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
+    background: #bdbdbd;
+    border: none;
+    transition: 0.5s;
+}
+
+.serv-button:hover {
+    background: grey;
+    color: white;
+}
+
+/* Engine Component Styling */
+.equipment-engine-component {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.engine-all-tabs {
+    background: #ababab;
+    width: fit-content;
+}
+
+.engine-tab {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    text-decoration: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 0.5px solid #c6c6c6;
+}
+
+.engine-tab:hover {
+    background: grey;
+    color: white;
+    padding-top: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.general-top-header {
+    display: flex;
+    flex-direction: row;
+    background: #9f9f9f;
+    ;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    border-bottom: 0.5px solid rgb(144, 144, 144);
+}
+
+.general-heading {
+    margin-right: 100px;
+}
+
+.general-checks{
+    font-size: .8rem;
+}
+
+.check1-4,
+.check1-2,
+.check1-3 {
+    margin-left: 30px;
+}
+
+.check-data {
+    margin-left: 1.3rem;
+}
+
+.general-graph {
+    padding: 10px;
+    background: #d9d9d9;
+    ;
+}
+
+.overGraph {
+    position: absolute;
+    color: #a9a6a6;
+}
+
+.engine-filter-component {
+    border: 0.5px solid #d9d9d9;
+    padding: 20px;
+}
+
+.filter-label {
+    margin-right: 40px;
+}
+
+.filter-field {
+    padding: 4px;
+    width: 208px;
+}
+
+.filter-long-field {
+    width: 100%;
+    padding: 4px;
+}
+
+.filter-first-row {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    padding-bottom: 60px;
+}
+
+.filter-first,
+.filter-second {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-btn {
+    text-align: center;
+    margin-top: 33px;
+}
+
+.filter-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .equipment-component {
+        width: 100%;
+    }
+
+    .six-cards-component {
+        width: 100%;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .equipment-center-component {
+        display: block;
+    }
+
+    .equipment-side-content {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .equipment-links {
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .inputs-component {
+        display: block;
+    }
+
+    .fuel-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .bottom-content {
+        display: block;
+    }
+
+    .request-name {
+        display: block;
+        text-align: right;
+    }
+
+    .mechanic-name {
+        display: block;
+        text-align: right;
+    }
+
+    .filter-first-row {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .equipment-component {
+        width: 100%;
+    }
+
+    .equipment-header {
+        display: block;
+    }
+
+    .equipment-center-component {
+        width: 100%;
+    }
+
+    .fuel-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .general-heading {
+        display: none;
+    }
+}

@@ -1,0 +1,90 @@
+.upcoming-services-component{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.up-serv-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-bottom: 0.5px solid #878686;
+}
+.up-serv-routing{
+    margin-top: 5px;
+    color: #919191;
+}
+.up-serv-center-content{
+    margin-top: 20px;
+    border: 0.5px solid rgb(198, 196, 196);
+    padding: 50px;
+    border-radius: 5px;
+    background: rgb(234, 231, 231);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 100px;
+}
+.up-serv-cols{
+    display: flex;
+    justify-content: space-between;
+}
+.up-serv-label{
+    display: inline-block;
+    text-align: right;
+    width: 200px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.up-serv-des{
+    width: 816px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+.up-serv-field{
+    width: 280px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+.up-serv-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.up-serv{
+    border: 0.5px solid rgb(198, 196, 196);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    background: rgb(255, 254, 254);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.up-serv:hover{
+    background: grey;
+}
+.up-serv-btn{
+    text-align: center;
+    margin-top: 80px;
+}
+.up-serv-button{
+    background: #f1f1f1;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 0.5px solid #bfbcbc;
+}
+@media screen and (max-width: 900px) {
+    .up-serv-cols{
+        display: block;
+    }
+    .up-serv-field{
+        width: 100%;
+    }
+    .up-serv-des{
+        width: 100%;
+    }
+}

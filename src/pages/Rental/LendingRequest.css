@@ -1,0 +1,138 @@
+.Lending-container {
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+
+.button-check {
+    background: gray;
+    padding: .1rem .8rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.button-check:hover {
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.Calendar-container {
+    margin: .2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.Lending-text {
+    font-weight: 600;
+}
+
+.calendar__week,
+.calendar__header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar__header {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.current-month {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.calendar__week {
+    grid-auto-rows: 70px;
+    text-align: right;
+}
+
+.calendar__header {
+    grid-auto-rows: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.calendar__day {
+    padding: .5rem;
+}
+
+.calendar__day:hover {
+    background: gray;
+    transition: all 0.3s ease-in-out;
+}
+
+.month-button {
+    font-size: .8rem;
+    border: none;
+    border: 1px solid gray;
+    margin: 0 .3rem;
+}
+
+.entries-text {
+    font-size: .8rem;
+}
+
+.page-text {
+    color: #000;
+}
+
+.page-text:hover {
+    color: #000;
+    background: rgba(181, 181, 181, 0.612);
+}
+
+
+@media screen and (max-width:838px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .current-month {
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .month-button {
+        font-size: .5rem;
+        margin: .1rem;
+    }
+
+    .month-text {
+        font-size: .7rem;
+    }
+
+    .Lending-text {
+        font-size: .8rem;
+    }
+
+    .calendar__header {
+        font-size: .5rem;
+    }
+
+    .calendar__day {
+        padding: .5rem;
+    }
+
+    .day {
+        font-size: .6rem;
+    }
+
+}

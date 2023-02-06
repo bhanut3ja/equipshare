@@ -1,0 +1,32 @@
+.StatementTable{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 20px;
+    border-radius: 8px;
+    overflow:auto;
+    display: block;
+    margin:auto;
+}
+ 
+.th{
+    border-left: 1px solid rgba(82, 78, 78, 0.268);
+}
+.number{
+  width: 80px;
+}
+ 
+.otherbutton{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: end;
+    margin-top: 10px;
+    gap: 20px;
+}
+.otherbutton button{
+  padding: 5px 20px;
+  background-color: rgba(40, 38, 38, 0.562);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+ 

@@ -1,0 +1,20 @@
+.rental-sub-header {
+    font-size: .9rem;
+    color: rgb(97, 97, 97);
+}
+
+.container-table {
+    padding: .5rem;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+
+.table-scroll {
+    display: block;
+}
+
+.custom-scrollbar {
+    position: relative;
+    height: 15rem;
+    overflow: auto;
+}

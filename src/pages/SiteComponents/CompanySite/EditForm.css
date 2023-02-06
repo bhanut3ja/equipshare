@@ -1,0 +1,144 @@
+
+.EditForms{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+}
+.EditSites{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+}
+.EditForm{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.EditForm .field{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.EditForm .field .CheckBox{
+    width: 300px;
+}
+.EditForm  .field p{
+    width: 150px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.Textfield label{
+    z-index: 0;
+}
+.EditForm  .Textfield{
+    
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.EditForm  .Textfield p{
+    width: 150px;
+    text-align: right;
+    margin-bottom: 0;
+}
+#outlined-size-normal{
+    width: 240px;
+    padding-right: 0;
+} 
+#outlined{
+    padding-right: 0;
+}
+#combo-box-demo{
+    width: 280px;
+  padding-right: 0;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+ .button button{
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: none;
+    background:rgba(0, 0, 0, 0.555);
+    color: white;
+    cursor: pointer;
+}
+  button:hover{
+    background-color:rgba(82, 78, 78, 0.69) ;
+    
+}
+  
+@media screen and (max-width:838px){
+    .EditForm{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #outlined-size-normal{
+        width: 240px;
+        padding-right: 0;
+    } 
+    
+    .EditForm .field{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .EditForm .field .CheckBox{
+        width: 250px;
+    }
+    .EditForm  .Textfield p{
+        width: 150px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .EditForm  .field p{
+        width: 150px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+     
+
+}
+ 
+@media screen and (max-width:799px) {
+    #outlined-size-normal{
+        width: 235px;
+    }
+    .EditForm  .Textfield{
+        gap: 15px;
+         
+    }
+}
+@media screen and (max-width:503px) {
+.EditForm  .Textfield p{
+    width: 150px;
+    text-align: left;
+}
+.EditForm  .Textfield p{
+    width: 150px;
+    text-align: left;
+    font-size: 18px;
+}
+.EditForm  .field p{
+    width: 150px;
+    text-align: left;
+    font-size: 18px;
+}
+.EditForm  .field{
+    gap: 15px;
+}
+}
+ 

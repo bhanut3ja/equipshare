@@ -1,0 +1,144 @@
+
+.map-component{
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.map-top-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #878686;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.map-heading{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.map-routing{
+    color: #464545;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.details-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.details-1, .details-2, .details-3{
+    display: flex;
+    flex-direction: row;
+}
+.details-heading1, .details-heading2, .details-heading3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+.details-dropdown{
+    padding: 5px;
+    margin-top: -4px;
+    width: 205px;
+    margin-right: 13px;
+}
+.map-get-details{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #999494;
+    border: 0.5px solid #8c8c8c;
+    color: white;
+    border-radius: 9px;
+    font-size: 15px;
+    margin-top: -6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cards-and-map{
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 20px;
+}
+.heading-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.card-heading{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.cards{
+    padding: 14px;
+    border-top: 0.5px solid rgb(225, 223, 223);
+    border-bottom: 0.5px solid rgb(225, 223, 223);
+    padding-right: 107px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cards:hover{
+    background: rgb(225, 223, 223);
+}
+.heading-names{
+    margin-right: 33px;
+}
+.all-cards{
+    border: 0.5px solid rgb(225, 223, 223);
+}
+.MapImage{
+    width: 764px;
+    height: 520px;
+}
+
+@media screen and (max-width: 900px) {
+    .details-section{
+        display: block;
+    }
+    .details-1, .details-2, .details-3{
+        margin-top: 25px;
+    }
+    .details-heading2{
+        margin-right: 46px;
+    }
+    .details-heading3{
+        margin-right: 39px;
+    }
+    .details-dropdown{
+        width: 100%;
+    }
+    .map-get-details{
+        margin-top: 19px;
+    }
+    .cards-and-map{
+        display: block;
+    }
+    .cards{
+        width: 100%;
+    }
+    .MapImage{
+        width: 100%;
+        margin-top: 10px;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .details-section{
+        display: block;
+    }
+    .details-1, .details-2, .details-3{
+        margin-top: 25px;
+    }
+    .details-heading2{
+        margin-right: 46px;
+    }
+    .details-heading3{
+        margin-right: 39px;
+    }
+    .map-get-details{
+        margin-top: 19px;
+    }
+    .MapImage{
+        height: 320px;
+    }
+}

@@ -1,0 +1,118 @@
+.wallet-wrapper {
+  margin-top: 60px;
+  padding: 1rem;
+  .wallet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h6 {
+      font-size: 1.5rem;
+      color: gray;
+    }
+    .breadcrumb-wrapper {
+      --bs-breadcrumb-divider: ">";
+      margin: 0rem;
+      .breadcrumb {
+        margin: 0rem;
+        .breadcrumb-item {
+          color: gray;
+          a {
+            text-decoration: none;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+  hr {
+    margin: 0.5rem 0rem;
+  }
+  .date-button-wrapper {
+    .date-button-left {
+      Button{
+        margin:.5rem 0rem;
+      }
+      .date-wrap {
+      }
+    }
+    .date-button-right {
+      Button{
+        margin: .5rem auto;
+      }
+    }
+  }
+  .balance-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .wallet-wrapper {
+    .date-button-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .date-button-left {
+        display: flex;
+        align-items: center;
+        Button{
+          margin:0rem;
+        }
+        .date-wrap {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: fit-content;
+
+          .react-datepicker__input-container {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+          }
+
+          label {
+          }
+          .datepicker {
+            width: 70%;
+            padding: 0.2rem;
+          }
+        }
+        Button {
+          margin: 0rem 1rem;
+        }
+      }
+      .date-button-right {
+        margin: 0rem;
+      }
+    }
+    .balance-wrapper {
+      margin: 1rem auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 75%;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}

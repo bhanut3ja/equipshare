@@ -1,0 +1,138 @@
+.SiteForms{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.SiteForm{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.SiteForm .field{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.Textfield label{
+    z-index: 0;
+}
+.SiteForm .field .CheckBox{
+    width: 300px;
+}
+.SiteForm  .field p{
+    width: 150px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.SiteForm  .Textfield{
+    
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.SiteForm  .Textfield p{
+    width: 150px;
+    text-align: right;
+    margin-bottom: 0;
+}
+#outlined-size-normal{
+    width: 325px;
+    padding-right: 0;
+    z-index: 0;
+} 
+#outlined-size-normal label{
+    z-index: 0;
+}
+#outlined{
+    padding-right: 0;
+}
+#combo-box-demo{
+    width: 280px;
+  padding-right: 0;
+}
+.img {
+    width: 300px;
+    height: 150px;
+  }
+@media screen and (max-width:838px){
+     
+    #outlined-size-normal{
+        width: 270px;
+    } 
+    #combo-box-demo{
+        width: 245px;
+    }
+    .SiteForm  .Textfield{
+    
+         
+        gap: 20px;
+        
+    }
+    .SiteForm .field{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .SiteForm .field .CheckBox{
+        width: 250px;
+    }
+    .SiteForm  .Textfield p{
+        width: 150px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .SiteForm  .field p{
+        width: 150px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:799px) {
+    .SiteForm  .Textfield{
+    
+         
+        gap: 15px;
+        
+    }
+    .SiteForm  .Textfield p{
+        width: 150px;
+        text-align: left;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .SiteForm  .field p{
+        width: 150px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .SiteForm  .field{
+        gap: 15px;
+    }
+    .img {
+        width: 250px;
+        height: 150px;
+      }
+}
+@media screen and (max-width:503px) {
+    .SiteForm  .Textfield p{
+        width: 150px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .SiteForm  .field p{
+        width: 150px;
+        text-align: left;
+        font-size: 18px;
+    }
+}
+ 

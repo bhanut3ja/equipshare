@@ -1,0 +1,124 @@
+.DateContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size: .9rem;
+}
+
+.DateContainer select {
+    border: 0.1px solid rgba(0, 0, 0, 0.268);
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: .8rem;
+}
+
+.DateContainer .input {
+    border: 0.1px solid rgba(0, 0, 0, 0.268);
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: .8rem;
+}
+
+/* input[type="date"]::before {
+    color: #000;
+    content: attr(placeholder);
+}
+
+input[type="date"]:focus::before {
+    content: "" !important;
+    display: none;
+} */
+
+.text-small {
+    margin-left: 3rem;
+}
+
+.button-check {
+    background: gray;
+    padding: .1rem .5rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: .7rem;
+}
+
+.button-check:hover {
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.Report-Details {
+    border: 0.1px solid rgba(82, 78, 78, 0.268);
+    border-radius: 4px;
+    padding: 2rem 2rem 0rem 2rem;
+    margin: .9rem;
+}
+
+.Report-Details .Report-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Report-Details .Report-container .div {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.Report-Details .Report-container .div .file {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Report-Details .Report-container span {
+    font-weight: 600;
+    font-size: 15px;
+    width: 200px;
+    text-align: right;
+}
+
+.Report-Details .Report-container p {
+    font-size: 13px
+}
+
+.Report-Details .Report-container .img {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Report-Details .Report-container .img img {
+    width: 50px;
+    height: 50px;
+    background: rgba(82, 78, 78, 0.268);
+    border-radius: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Report-Details .Report-container .Report {
+    border-bottom: 1px solid rgba(82, 78, 78, 0.268);
+}
+
+
+@media screen and (max-width:1150px) {
+    .text-small {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .Report-Details .Report-container span {
+        width: 100px;
+        font-size: .7rem;
+    }
+}

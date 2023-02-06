@@ -1,0 +1,66 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+.equipments-utiliti{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    margin: auto;
+     border-radius: 4px;
+      
+      
+}
+
+.invoice {
+    display: flex;
+    justify-content: space-between;
+    background: #a6a6a6;
+    padding: 0 0px 0 5px;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+     
+    flex-wrap: wrap;
+     
+}
+.invoicesGraph{
+    margin-top: 10px;
+}
+ 
+.invoice .header-name{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 3px;
+    margin-bottom: 0;
+}
+.invoice .header-name1{
+    font-size: 1.3vmin;
+    font-weight: bold;
+    
+}
+.invoice .dropdown{
+    padding: 3px;
+    font-size: 13px;
+    width: 186px;
+    outline: none;
+}
+.invoice .header-radios{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+  .equipment-graph{
+    
+    height: 300px;
+    padding: 5px;
+    background: rgba(46, 44, 44, 0.268);
+   
+}
+.LineChart{
+    width: 100%;
+}
+@media screen and (max-width:872px) {
+ .invoice .header-radios{
+        gap: 5px;
+    }
+}

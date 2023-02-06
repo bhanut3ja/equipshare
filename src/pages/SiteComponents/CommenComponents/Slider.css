@@ -1,0 +1,51 @@
+.Slider{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Slider .Topics{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ text-decoration: none;
+ 
+}
+.Link{
+    text-decoration: none;
+}
+.Slider .Topics h3{
+    list-style: none;
+    text-decoration: none;
+    color: black ;
+    font-size: 15px;
+    padding: 6px 15px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+   
+.Slider .Topics h3:hover {
+    background:rgba(0, 0, 0, 0.555);
+    color: white;
+}
+@media screen and (max-width:838px){
+    
+    .Slider .Topics h3{
+        font-size: 12px;
+    }
+     
+}
+@media screen and (max-width:503px){
+    
+    .Slider .Topics h3{
+        padding: 6px 0;
+        width: 100px;
+    }
+     
+}
+
+ 

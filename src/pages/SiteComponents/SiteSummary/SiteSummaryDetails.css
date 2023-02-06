@@ -1,0 +1,81 @@
+.Site{
+    margin-top: 45px;
+    padding: 20px;
+    
+}
+.SiteSummaryDetails{
+    margin:10px auto 0 auto;
+}
+ 
+.SiteSummary .Border{
+    border: 1px solid rgba(82, 78, 78, 0.268);
+    padding: 10px;
+    border-radius: 0 5px 5px 5px;
+    margin: auto;
+    overflow: auto;
+    display: block;
+}
+.Hover{
+    padding:6px 0 0 0;
+}
+.Hover:hover{
+     background-color:rgba(82, 78, 78, 0.474) ;
+     border-radius: 3.5px 3.5px 0 0;
+     
+}
+.SiteSummary .buttton{
+    display: flex;
+    flex-wrap: wrap;
+}
+.SiteSummary .buttton button:hover{
+    color: white;
+    border: 0.1px solid rgba(82, 78, 78, 0.027);
+}
+.SiteSummary .buttton button{
+  border: 0.1px solid rgba(82, 78, 78, 0.268);
+  background-color: transparent;
+  padding: 5px 15px;
+  border-radius: 3.5px 3.5px 0 0;
+}
+
+
+.Link{
+    text-decoration: none;
+}
+@media screen and (max-width:997px){
+    .Site {
+        margin-top: 45px;
+      padding: 20px;
+      width: 700px;
+  }
+   }
+@media screen and (max-width:872px) {
+    .Site{
+    padding: 10px;
+    margin-top: 45px;
+    width: 600px;
+}
+}
+@media screen and (max-width:799px) {
+    .Site{
+    padding: 10px;
+    width: 500px;
+    margin-top: 45px;
+    font-size: .8rem;
+}
+}
+@media screen and (max-width:503px) {
+    .Site{
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+}
+}
+@media screen and (max-width:403px) {
+    .Site{
+    padding: 10px;
+    width: 350px;
+    margin: auto;
+    font-size: .6rem;
+}
+}

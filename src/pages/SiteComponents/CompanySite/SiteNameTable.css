@@ -1,0 +1,61 @@
+.SiteTable{
+    padding: 20px;
+   }
+   .SiteSelects{
+       margin-top: 10px;
+       margin-left: auto;
+       margin-right: auto;
+       padding-bottom: 8px;
+     
+   }
+   .SiteSelect{
+       display: flex;
+       align-items: center;
+       justify-content:space-between;
+       
+   }
+   .SiteSelect .Title{
+       cursor: pointer;
+   }
+   .SiteSelect .SitePresenter{
+    display: flex;
+    gap: 15px;
+   }
+   .SiteSelect .SitePresenter button{
+       padding: 5px 12px;
+       border-radius: 5px;
+       border: none;
+       background:rgba(0, 0, 0, 0.555);
+       color: white;
+       cursor: pointer;
+   }
+   .SiteSelect .SitePresenter button:hover{
+       background-color:rgba(82, 78, 78, 0.436) ;
+       
+   }
+   /* @media screen and (max-width:838px){
+       .SiteSelect{
+       width:480px;
+       }
+   } */
+   
+   /* Table CSS */
+   .SiteNameTable{
+       border: 1px solid rgba(82, 78, 78, 0.268);
+       padding: 20px;
+       border-radius: 8px;
+   
+       margin:auto;
+   }
+    
+   .th{
+       border-left: 1px solid rgba(82, 78, 78, 0.268);
+   }
+   .number{
+     width: 80px;
+   }
+    
+    
+    
+   
+      

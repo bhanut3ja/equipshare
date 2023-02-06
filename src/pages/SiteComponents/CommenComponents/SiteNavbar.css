@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.SiteNav{
+    border-bottom: 1px solid rgba(82, 78, 78, 0.268);
+    margin: auto;
+    
+}
+p{
+    margin-bottom: 0;
+}
+.SiteNavbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.SiteNavbar .SitePresenter{
+    display: flex;
+    gap: 5px;
+}
+
+/* @media screen and (max-width:838px){
+    .SiteNavbar{
+    width:480px;
+    }
+} */

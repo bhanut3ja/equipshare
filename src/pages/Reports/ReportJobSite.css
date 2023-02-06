@@ -1,0 +1,32 @@
+.report-select {
+    border: 0.1px solid rgba(82, 78, 78, 0.268);
+    border-radius: 4px;
+    padding: 5px 65px 5px 10px;
+    font-size: .9rem;
+}
+
+
+
+.button-check {
+    background: gray;
+    margin: .1rem;
+    padding: .1rem .8rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: .8rem;
+}
+
+.button-check:hover {
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+ .container .UserNameTable img {
+    width: 50px;
+    height: 50px;
+    background: rgba(82, 78, 78, 0.268);
+    border-radius: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
